@@ -421,7 +421,7 @@ nav .fa-solid {
 @media only screen and (max-width: 600px){
     .header-text {
         font-size: 20px;
-        margin-top: 450px;
+        margin-top: 500px;
     }
 
     .header-text h1 .header-name-span {
@@ -463,6 +463,7 @@ nav .fa-solid {
     nav .menu {
         display: inline-block;
         font-size: 25px;
+        margin-right: 20px;
     }
 
     nav ul {
