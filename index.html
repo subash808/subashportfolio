@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- title -->
+    <title>Subash-Portfolio</title>
+    <!-- Favicon link -->
+    <link rel="shortcut icon" type="image/png" href="images/Subash Portfolio1.png">
+    <!-- Bootstrap link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- CSS link -->
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+    </style>
+    <!-- Font Awesome link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+</head>
+
+<body>
+
+    <!-- Header content starts here -->
+    <div id="header">
+        <div class="container">
+            <nav class="nav-bar">
+                <img src="images/Name-logo2.png" alt="name-logo" class="name-logo">
+                <ul class="header-ul" id="sidemenu">
+                    <li class="mt-5"><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark close" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars menu" onclick="openmenu()"></i>
+            </nav>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-sm-12 header-text">
+                        <p>Python Developer</p>
+                        <h1>Hi, I'm <span class="header-name-span">Subash</span> <br>
+                            <span class="header-name-span-2">From Thanjavur</span>
+                        </h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Header content ends here -->
+
+    <!-- About Section starts here -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row about-section">
+                <div class="col-md-6">
+                    <img src="images/Subash_photo3.jpg" alt="subash-photo" class="my-image">
+                </div>
+                <div class="col-md-6 about-content">
+                    <h1 class="abt-sec">About Me</h1>
+                    <p>I am Looking for Python Developer and Web Developer, I recently completed a comprehensive Python
+                        development course at Udemy, where I honed my skills Python, HTML and CSS,Bootstrap,Git and
+                        GitHub in full stack development and mobile application development. In just six months, I
+                        successfully completed a mobile application project that showcased my proficiency in Python,
+                        SQL, and HTML. This experience has equipped me with a strong foundation in web technologies and
+                        programming.</p>
+
+                    <p>I'm excited to connect with fellow professionals, explore opportunities, and contribute my skills
+                        to exciting projects. Let's connect and collaborate!</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-links" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Python</span><br>Python is great for automating tasks, analyzing data, and
+                                building websites.</li>
+                            <li><span>Web Developemnt</span><br>Web development involves designing and coding websites
+                                and applications, handling both the look and functionality.</li>
+                            <li><span>Django</span><br>Django is a Python framework that makes it easy to build secure
+                                and scalable web applications quickly..</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2024</span><br>Python Full Stack Development Training at Udemy.</li>
+                            <li><span>2023</span><br>BCA from PRIST UNIVERSITY Thanjavur - CGPA of 8.04. </li>
+                            <li><span>2020</span><br>Rajavignesh Higher Secondary School, Melamathur - Percentage 79
+                            </li>
+                            <li><span>2018</span><br>Rajavignesh Higher Secondary School, Melamathur - Percentage 76
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- About Section ends here -->
+
+    <!-- Service section starts here -->
+
+    <div id="services">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1 class="Sub-title">My Services</h1>
+                </div>
+
+                <div class="services-list">
+                    <div>
+                        <i class="fa-solid fa-bug"></i>
+                        <h2>Python Development</h2>
+                        <p>In a Python development role, you will be responsible for creating and maintaining software
+                            applications using Python, known for its readability and efficiency. Your day-to-day tasks
+                            will include writing and optimizing code, debugging issues, and ensuring the performance and
+                            scalability of your applications.</p>
+                    </div>
+
+                    <div>
+                        <i class="fa-solid fa-code"></i>
+                        <h2>Web Development</h2>
+                        <p>You'll be involved in creating and maintaining dynamic and responsive websites and web
+                            applications. Your role will encompass both front-end and back-end tasks: designing
+                            intuitive user interfaces with HTML, CSS, and JavaScript, and developing server-side logic
+                            with languages like Python.You'll work with databases to manage data, integrate APIs to
+                            connect various parts of the application, and ensure</p>
+                    </div>
+
+                    <div>
+                        <i class="fa-brands fa-app-store-ios"></i>
+                        <h2>Full Stack Development</h2>
+                        <p>Full-stack development encompasses the comprehensive skill set required to build and manage
+                            both the client-side and server-side components of a web application. On the front end,
+                            developers focus on crafting engaging and interactive user interfaces using HTML, CSS, and
+                            JavaScript, often leveraging frameworks like React or Angular to enhance functionality.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Service section ends here -->
+
+    <!-- Project section starts here -->
+
+    <div id="projects">
+        <div class="container">
+            <h1 class="Sub-title">Projects</h1>
+
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/fashion-tech.jpg" alt="fashion-tech-image" class="project-image w-100">
+                    <div class="layer">
+                        <h3>E-commerce Website</h3>
+                        <p>Fashion-Tech is an innovative online platform that seamlessly blends the latest advancements
+                            in technology with cutting-edge fashion trends. Designed and developed with a focus on both
+                            style and functionality, this website showcases a modern aesthetic combined with
+                            user-friendly features.
+                        </p>
+                        <a href="https://fashion-tech.netlify.app/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="images/portfolio.jpg" alt="portfolio-image" class="project-image w-100">
+                    <div class="layer">
+                        <h3>Portfolio</h3>
+                        <p>Developed a sleek and responsive personal portfolio website for Clent Durga using HTML, CSS, and
+                            Bootstrap to showcase his skills and projects.
+                        </p>
+                        <a href="https://durgaportfolio3.netlify.app/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="images/Shopping_cart image.jpg" alt="Shopping_cart-image" class="project-image w-100">
+                    <div class="layer">
+                        <h3>Shopping Cart</h3>
+                        <p>I developed a Shopping Cart system focused on backend functionalities and efficient data
+                            handling. Utilizing Python(programming language), I created a seamless user shopping
+                            experience with features like product browsing, cart management.
+                        </p>
+                        <a href="https://github.com/subash808/Shopping_Cart_Project/tree/main/env" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+
+    <!-- Project section ends here -->
+
+    <!-- Contact section starts here -->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <h1 class="contact-title">Contact Me</h1>
+                <div class="col-md-6 contact-left">
+                    <p><i class="fa-solid fa-envelope"></i> s.k.subash062003@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i> +91 6369691187</p>
+                    <div class="icons">
+                        <a href="https://www.linkedin.com/in/subash-sachithanandam/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/subash808"><i class="fa-brands fa-square-github"></i></a>
+                        <a href="https://wa.me/+916369691187?text=Hi Subash..."><i class="fa-brands fa-whatsapp"></i></a>
+                        <a href="https://www.instagram.com/itz_subash_editor_/"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                    <a href="images/subash cv.pdf" download class="btn btn2">Download CV</a>
+                </div>
+
+                <div class="col-md-6 contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="name" id="Name" placeholder="Enter Your Name" required>
+                        <input type="email" name="email" id="Email" placeholder="Enter Your Email" required>
+                        <textarea name="message" rows="6" id="Message" placeholder="Your Message" required></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © 2024. Desinged and Developed by Subash.</p>
+        </div>
+    </div>
+
+    <!-- Contact section ends here -->
+
+</body>
+<script src="main.js">
+
+</script>
+<!-- Bootstrap Scripts link -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+
+</html>
