@@ -98,6 +98,7 @@ body {
 
 #about {
     margin-top: 30px;
+    padding: 10px;
 }
 
 .abt-sec {
@@ -111,13 +112,24 @@ body {
     color: #ababab;
 }
 
-.my-image {
+.about-col-1{
+    flex-basis: 35%;
+}
+.about-col-1 img{
+    width: 100%;
+    border-radius: 10px;
+}
+.about-col-2{
+    flex-basis: 60%;
+}
+
+/* .my-image {
     margin-top: 120px;
     width: 300px;
     height: 480px;
     margin-bottom: 25px;
     border-radius: 7px;
-}
+} */
 
 .tab-titles {
     display: flex;
@@ -167,6 +179,10 @@ body {
 
 /* Service section */
 
+#services {
+    padding: 20px;
+}
+
 .Sub-title {
     color: #fff;
     margin-top: 40px;
@@ -209,13 +225,14 @@ body {
 
 #projects {
     margin: 20px 0;
+    padding: 20px;
 }
 
 .work-list {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-    grid-gap: 40px;
-    margin-bottom: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+    grid-gap:40px;
+    margin-top: 50px;
 }
 
 .work {
@@ -226,9 +243,9 @@ body {
 
 .work .project-image {
     width: 100%;
-    border-radius: 10px;
+    border-radius: 8px;
     display: block;
-    transition: transform .5s;
+    transition: transform 0.5s;
 }
 
 .layer {
@@ -244,7 +261,7 @@ body {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    padding: 0 40px;
+    padding: 0 20px;
     text-align: center;
     transition: height .5s;
 }
@@ -292,6 +309,10 @@ body {
 }
 
 /* contact section starts here */
+
+#contact {
+    padding: 30px;
+}
 
 .contact-title {
     text-align: center;
@@ -392,7 +413,7 @@ nav .fa-solid {
 @media only screen and (max-width: 600px){
     .header-text {
         font-size: 20px;
-        margin-top: 300px;
+        margin-top: 380px;
     }
 
     .header-text h1 .header-name-span {
@@ -402,6 +423,21 @@ nav .fa-solid {
     .header-text h1 .header-name-span-2 {
         font-size: 30px;
         font-weight: 400;
+    }
+
+    .abt-sec {
+        font-size: 40px;
+    }
+
+    .about-col-1, .about-col-2{
+        flex-basis: 100%;
+        margin: 0px;
+    }
+    .about-col-1{
+        margin-bottom: 30px;
+    }
+    .about-col-2{
+        font-size: 14px;
     }
 
     nav .close {
